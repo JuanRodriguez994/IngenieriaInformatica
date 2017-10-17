@@ -8,8 +8,10 @@ El codigo es el siguiente:
 /* Program that finds the largest number in a list of integers */
 .equ LIST, 0x500		/* Starting address of the list */
 
+
 .global _start
 _start:
+
 	movia r4, LIST		/* r4 points to the start of the list */
 	ldw r5, 4(r4)		/* r5 is a counter, initialize it with n */
 	addi r6, r4, 8		/* r6 points to the first number */
