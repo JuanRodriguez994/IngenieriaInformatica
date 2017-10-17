@@ -78,3 +78,5 @@ typed into the Terminal Window of the Monitor Program will be echoed back, causi
 the character to appear in the Terminal Window.
 
 ### see the Practica2_Ejemplo2a.s, Practica2_Ejemplo2b.s
+
+# Example 3. Using Interrupts and Timer
